@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Noto+Sans+Bengali&family=Poppins:wght@500&family=Roboto+Serif&display=swap');
+
+body{
+    background-color: rgb(181, 194, 194);
+    margin: 0px;
+}
+
+.head{
+    font-family: 'Lora', serif;
+    font-size: 30px;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightslategrey;
+    background-color: rgb(61, 59, 59);
+    color: white;
+    height: 70px;
+    padding: 5px 45px 5px 45px;
+   
+}
+.nav-div-0{
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+nav .dp {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 10px;
+    
+}
+nav .nav-div-1 a{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.fa-brands{
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+/* main start */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    
+}
+.floor1{
+    width: 900px;
+    padding: 30px 15px 30px 15px;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 13px;
+    margin-bottom: 18px;
+    
+    
+    
+}
+.floor-title{
+    width: 900px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 1px rgb(81, 87, 92);
+    border-radius: 10px;
+}
+
+
+.flats{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.flat-A1 img{
+    padding-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    height: 200px;
+    width: 150px;
+}
+.flat-A1{
+    border: 1px solid black;
+    height: 290px;
+    width: 180px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+
+/* main End */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+}
